@@ -1,0 +1,9 @@
+# simple validation of user input
+
+message = "Customer type is a required field."
+while True:
+	customerType = input("Enter customer type: ")
+	if customerType == "1" or customerType == "2":
+		break		# proceed 
+	else:
+		print(message)
